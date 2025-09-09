@@ -1,0 +1,90 @@
+body
+{
+    background-color: #ececec;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.blog-card
+{
+    border: 1px solid black;
+    width: 30%;
+    height: 20rem;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+.blog-card:hover
+{
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out 0.2ms;
+}
+
+.hero
+{
+    font-family: "Libertinus Keyboard", system-ui;
+    background-image: url(bg-image.jpg);
+    height: 40rem;
+    margin-bottom: 0.5rem;
+}
+
+h3
+{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    background-color: rgb(185, 172, 172);
+}
+
+p
+{
+    font-family: "Inter", sans-serif;
+    margin: 0.5rem;
+}
+
+.navbar
+{
+    gap: 13rem;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(185, 172, 172);
+    height: 2rem;
+    display:flex;
+    margin: 0.5rem;
+    border:1px solid black;
+}
+
+.form
+{
+    text-align: center;
+    border:1px solid black;
+    margin: auto;
+    width: 30%;
+    height: 15rem;
+    padding: 1rem;
+}
+
+.footer> ul
+{
+    list-style-type:none;
+    margin-left: 45%;
+}
+
+li>img
+{
+    height:1rem;
+    width:1rem;
+}
